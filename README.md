@@ -17,19 +17,19 @@ A continuación las clases de un proyecto de consola que imprime información de
 <p>
 1-.Una clase PC que será el objeto de transporte
 </p>
-<img src="">
+<img src="PCCode.png"/>
 <p>
 2-.Una clase PCManager que obtendrá algunos de los valores del Hardware para este ejemplo, mediante consultas WQL del repositorio WMI similar a las consultas SQL para en base de datos.
 </p>
-<img src="">
+<img src="PCManagerSource.png"/>
 <p>
 3-.Finalmente el programa principal que despliega información del equipo.
 </p>
-<img src="">
+<img src="Program.png"/>
 <p>
 El resultado de la ejecución del programa se muestra en la siguiente imagen:
 </p>
-<img src="">
+<img src="fig1.png"/>
 <p>
 Los puntos claves del programa utilizados por la clase PCManager son
 <ol>
@@ -42,8 +42,8 @@ Los puntos claves del programa utilizados por la clase PCManager son
 <p>
 También se puede mostrar información desde una página ASP.NET como en el siguiente listado:
 </p>
-<img src="">
+<img src="PCPropASPCode.png"/>
 <p>
 El resultado de la ejecucción de la página:
 </p>
-<img src="">
+<img src="fig2.png"/>
