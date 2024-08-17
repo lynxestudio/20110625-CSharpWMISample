@@ -17,33 +17,29 @@ A continuación las clases de un proyecto de consola que imprime información de
 <p>
 1-.Una clase PC que será el objeto de transporte
 </p>
-<img src="PCCode.png"/>
+<img src="images/classPc.png"/>
 <p>
 2-.Una clase PCManager que obtendrá algunos de los valores del Hardware para este ejemplo, mediante consultas WQL del repositorio WMI similar a las consultas SQL para en base de datos.
 </p>
-<img src="PCManagerSource.png"/>
-<p>
-3-.Finalmente el programa principal que despliega información del equipo.
-</p>
-<img src="Program.png"/>
+<img src="images/PCManagerSource.png"/>
 <p>
 El resultado de la ejecución del programa se muestra en la siguiente imagen:
 </p>
-<img src="fig1.png"/>
+<img src="images/fig1.png"/>
 <p>
 Los puntos claves del programa utilizados por la clase PCManager son
 <ol>
-<li>Utilizar los ensamblados System.Management y System.Management.Instrumentation.</li>
-<li>Crear una instancia de la clase ManagementObjectSearcher</li>
-<li>Encapsular cada consulta dentro de la clase ObjectQuery</li>
+<li>Utilizar los ensamblados <b>System.Management</b> y <b>System.Management.Instrumentation</b>.</li>
+<li>Crear una instancia de la clase <b>ManagementObjectSearcher</b></li>
+<li>Encapsular cada consulta dentro de la clase <b>ObjectQuery</b></li>
 <li>Obtener los resultados de la búsqueda en una colección de ManagementObject representada por la clase ManagementObjectCollection, para iterar dentro de la colección e imprimir los valores.</i>
 </ol>
 </p>
 <p>
 También se puede mostrar información desde una página ASP.NET como en el siguiente listado:
 </p>
-<img src="PCPropASPCode.png"/>
+<img src="images/PCPropASPCode.png"/>
 <p>
 El resultado de la ejecucción de la página:
 </p>
-<img src="fig2.png"/>
+<img src="images/fig2.png"/>
