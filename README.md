@@ -38,7 +38,4 @@ Los puntos claves del programa utilizados por la clase PCManager son
 <p>
 También se puede mostrar información desde una página ASP.NET como en el siguiente screenshot:
 </p>
-<p>
-El resultado de la ejecucción de la página:
-</p>
 <img src="images/fig2.png"/>
