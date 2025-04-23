@@ -15,13 +15,9 @@ WMI trabaja dentro del contexto de un ensamblado, siendo el predeterminado root\
 A continuación las clases de un proyecto de consola que imprime información del hardware del equipo.
 </p>
 <p>
-1-.Una clase PC que será el objeto de transporte
+Una clase PC que será el objeto de transporte
 </p>
 <img src="images/classPc.png"/>
-<p>
-2-.Una clase PCManager que obtendrá algunos de los valores del Hardware para este ejemplo, mediante consultas WQL del repositorio WMI similar a las consultas SQL para en base de datos.
-</p>
-<img src="images/PCManagerSource.png"/>
 <p>
 El resultado de la ejecución del programa se muestra en la siguiente imagen:
 </p>
